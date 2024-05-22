@@ -1,6 +1,8 @@
 # microcms-field-extension-app-nextjs
 https://blog.microcms.io/microcms-field-extension-sdk/
 
+MicroCMSの拡張フィールド（iframe仕様）用のコンポーネント
+
 ## Getting Started
 
 # アプリの作成
