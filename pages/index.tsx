@@ -12,7 +12,12 @@ const Home: NextPage = () => {
     sendMessage({ data: e.target.value });
   };
 
-  return <input type="color" value={String(data)} onChange={onChangeColor} />;
+  return (
+    <>
+      <p>↓から色を選択してください。</p>
+      <input type="color" value={String(data)} onChange={onChangeColor} />
+    </>
+  )
 };
 
 export default Home;
